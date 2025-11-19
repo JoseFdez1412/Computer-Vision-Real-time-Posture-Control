@@ -60,6 +60,7 @@ Install dependencies:
 pip install --upgrade pip
 pip install -r requirements.txt
 If you have issues installing torch, follow the official PyTorch installation guide for your OS / GPU and then reinstall ultralytics / opencv-python if needed.
+
 ---
 
 ## Usage (local)
@@ -80,6 +81,7 @@ You can adjust thresholds at the top of src/posture_monitor.py:
 BAD_POSTURE_THRESHOLD_SECONDS = 3 * 60
 TORSO_ANGLE_THRESHOLD_DEG = 25
 HEAD_FORWARD_THRESHOLD_REL = 0.07
+
 ---
 
 ## Auto-start on Windows (optional)
