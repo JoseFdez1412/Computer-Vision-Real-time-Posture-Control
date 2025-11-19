@@ -102,4 +102,5 @@ python posture_monitor.py
 
   
 Next time you log in, the script will start automatically and monitor your posture in the background.
+
 ---
